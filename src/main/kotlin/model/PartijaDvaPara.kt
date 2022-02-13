@@ -1,6 +1,8 @@
 package model
 
-class PartijaDvaPara : Partija() {
+class PartijaDvaPara(override var doKolikoSeIgra: Int, override val lokacija: Lokacija,
+                     override val unosi: Igrac, override val mjesanja: List<Mjesanje>,
+                     override val igraci: MutableList<Igrac?>) : Partija() {
 
     override fun toString(): String {
         val rezultat = getRezultat()

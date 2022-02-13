@@ -1,6 +1,6 @@
 package model
 
-open class PartijaDvaIgraca(override val doKolikoSeIgra: Int, override val lokacija: Lokacija,
+open class PartijaDvaIgraca(override var doKolikoSeIgra: Int, override val lokacija: Lokacija,
                             override val unosi: Igrac, override val mjesanja: List<Mjesanje>,
                             override val igraci: MutableList<Igrac?>
 ) : Partija() {

@@ -3,7 +3,6 @@
     "doKolikoSeIgra": 501,
     "lokacija": {
       "longitude": 18.6098766,
-      "latitude": 45.5605825,
       "naziv": "Caffe Bar Peppermint",
       "id": 1
     },
@@ -16,12 +15,20 @@
     },
     "mjesanja": [
       {
+        "bodovaPrviUnos": 10,
+        "bodovaDrugiUnos": 152,
+        "zvanjePrviUnos": 0,
+        "zvanjeDrugiUnos": 20,
         "stiglja": false,
         "belot": false,
         "datumUnosa": null,
         "id": 0
       },
       {
+        "bodovaPrviUnos": 152,
+        "bodovaDrugiUnos": 10,
+        "zvanjePrviUnos": 0,
+        "zvanjeDrugiUnos": 20,
         "stiglja": true,
         "belot": false,
         "datumUnosa": null,
@@ -50,7 +57,6 @@
     "doKolikoSeIgra": 501,
     "lokacija": {
       "longitude": 18.6098766,
-      "latitude": 45.5605825,
       "naziv": "Caffe Bar Peppermint",
       "id": 1
     },
@@ -63,36 +69,72 @@
     },
     "mjesanja": [
       {
+        "bodovaTreciUnos": 76,
+        "zvanjeTreciUnos": 0,
+        "bodovaPrviUnos": 10,
+        "bodovaDrugiUnos": 76,
+        "zvanjePrviUnos": 0,
+        "zvanjeDrugiUnos": 20,
         "stiglja": false,
         "belot": false,
         "datumUnosa": null,
         "id": 0
       },
       {
+        "bodovaTreciUnos": 76,
+        "zvanjeTreciUnos": 0,
+        "bodovaPrviUnos": 10,
+        "bodovaDrugiUnos": 76,
+        "zvanjePrviUnos": 0,
+        "zvanjeDrugiUnos": 20,
         "stiglja": false,
         "belot": false,
         "datumUnosa": null,
         "id": 0
       },
       {
+        "bodovaTreciUnos": 76,
+        "zvanjeTreciUnos": 0,
+        "bodovaPrviUnos": 10,
+        "bodovaDrugiUnos": 76,
+        "zvanjePrviUnos": 0,
+        "zvanjeDrugiUnos": 20,
         "stiglja": false,
         "belot": false,
         "datumUnosa": null,
         "id": 0
       },
       {
+        "bodovaTreciUnos": 76,
+        "zvanjeTreciUnos": 0,
+        "bodovaPrviUnos": 10,
+        "bodovaDrugiUnos": 76,
+        "zvanjePrviUnos": 0,
+        "zvanjeDrugiUnos": 20,
         "stiglja": false,
         "belot": false,
         "datumUnosa": null,
         "id": 0
       },
       {
+        "bodovaTreciUnos": 76,
+        "zvanjeTreciUnos": 0,
+        "bodovaPrviUnos": 10,
+        "bodovaDrugiUnos": 76,
+        "zvanjePrviUnos": 0,
+        "zvanjeDrugiUnos": 20,
         "stiglja": false,
         "belot": false,
         "datumUnosa": null,
         "id": 0
       },
       {
+        "bodovaTreciUnos": 76,
+        "zvanjeTreciUnos": 0,
+        "bodovaPrviUnos": 10,
+        "bodovaDrugiUnos": 76,
+        "zvanjePrviUnos": 0,
+        "zvanjeDrugiUnos": 20,
         "stiglja": false,
         "belot": false,
         "datumUnosa": null,
@@ -128,7 +170,6 @@
     "doKolikoSeIgra": 501,
     "lokacija": {
       "longitude": 18.6098766,
-      "latitude": 45.5605825,
       "naziv": "Caffe Bar Peppermint",
       "id": 1
     },
@@ -141,12 +182,20 @@
     },
     "mjesanja": [
       {
+        "bodovaPrviUnos": 10,
+        "bodovaDrugiUnos": 152,
+        "zvanjePrviUnos": 0,
+        "zvanjeDrugiUnos": 20,
         "stiglja": false,
         "belot": false,
         "datumUnosa": null,
         "id": 0
       },
       {
+        "bodovaPrviUnos": 152,
+        "bodovaDrugiUnos": 10,
+        "zvanjePrviUnos": 0,
+        "zvanjeDrugiUnos": 20,
         "stiglja": true,
         "belot": false,
         "datumUnosa": null,
