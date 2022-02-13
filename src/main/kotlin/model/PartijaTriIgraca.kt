@@ -2,7 +2,14 @@ package model
 
 import java.util.function.ToIntFunction
 
-class PartijaTriIgraca : PartijaDvaIgraca() {
+class PartijaTriIgraca(
+    doKolikoSeIgra: Int, lokacija: Lokacija,
+    unosi: Igrac, mjesanja: List<Mjesanje>,
+     igraci: MutableList<Igrac?>
+) : PartijaDvaIgraca(
+    doKolikoSeIgra, lokacija,
+    unosi, mjesanja,
+igraci) {
 
     override fun toString(): String {
         val rezultat = getRezultat()

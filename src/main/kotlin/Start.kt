@@ -29,71 +29,42 @@ class Start {
     }
 
     private fun kreirajPartijuDvaPara() {
-        val partija = PartijaDvaPara(501, lokacija!!, igrac1)
-/*        partija.doKolikoSeIgra = 501
-        partija.lokacija = lokacija!!
-        partija.unosi = igrac1!!
-
- */
         val igraci: MutableList<Igrac?> = mutableListOf()
         igraci += igrac1
-        igraci += (igrac2)
-        igraci += (igrac3)
-        igraci += (igrac4)
-        partija.igraci = igraci
+        igraci += igrac2
+        igraci += igrac3
+        igraci += igrac4
+        val partija = PartijaDvaPara(501, lokacija!!, igrac1!!, kreirajMjesanjaDvaPara(), igraci)
         println(partije.joinToString())
-        partija.mjesanja = kreirajMjesanjaDvaPara()
         partije.add(partija)
     }
 
     private fun kreirajMjesanjaDvaPara(): List<Mjesanje> {
         val mjesanja: MutableList<Mjesanje> = ArrayList()
-        var m = MjesanjeDvaUnosa()
-        m.bodovaPrviUnos = 10
-        m.bodovaDrugiUnos = 152
-        m.zvanjePrviUnos = 0
-        m.zvanjeDrugiUnos = 20
+        var m = MjesanjeDvaUnosa(10, 152, 0, 20)
+
         mjesanja.add(m)
-        m = MjesanjeDvaUnosa()
-        m.bodovaPrviUnos = 152
-        m.bodovaDrugiUnos = 10
-        m.zvanjePrviUnos = 0
-        m.zvanjeDrugiUnos = 20
+        m = MjesanjeDvaUnosa(152, 10, 0, 20)
         m.stiglja = true
         mjesanja.add(m)
         return mjesanja
     }
 
     private fun kreirajPartijuTriIgraca() {
-        val partija = PartijaTriIgraca()
-        partija.doKolikoSeIgra = 501
-        partija.lokacija = lokacija!!
-        partija.unosi = igrac1!!
         val igraci: MutableList<Igrac?> = mutableListOf()
         igraci.add(igrac1)
         igraci.add(igrac2)
         igraci.add(igrac3)
-        partija.igraci = igraci
-        partija.mjesanja = kreirajMjesanjaTriIgraca()
+        val partija = PartijaTriIgraca(501, lokacija!!, igrac1!!, kreirajMjesanjaTriIgraca(), igraci)
         partije.add(partija)
     }
 
     private fun kreirajMjesanjaTriIgraca(): List<Mjesanje> {
         val mjesanja: MutableList<Mjesanje> = mutableListOf()
-        var m = MjesanjeTriUnosa()
-        m.bodovaPrviUnos = 10
-        m.bodovaDrugiUnos = 76
-        m.zvanjePrviUnos = 0
-        m.zvanjeDrugiUnos = 20
-        m.bodovaTreciUnos = 76
+        var m = MjesanjeTriUnosa(10, 76, 0, 20, 76)
         mjesanja.add(m)
         for (i in 0..4) {
-            m = MjesanjeTriUnosa()
-            m.bodovaPrviUnos = 10
-            m.bodovaDrugiUnos = 76
-            m.zvanjePrviUnos = 0
-            m.zvanjeDrugiUnos = 20
-            m.bodovaTreciUnos = 76
+            m = MjesanjeTriUnosa(10, 76, 0, 20, 76)
             mjesanja.add(m)
         }
         return mjesanja

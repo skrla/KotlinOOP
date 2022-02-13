@@ -2,7 +2,7 @@ package model
 
 import java.util.*
 
-open class MjesanjeDvaUnosa(val bodovaPrviUnos: Int, val bodovaDrugiUnos: Int, val zvanjePrviUnos: Int, val zvanjeDrugiUnos: Int) : Mjesanje() {
+open class MjesanjeDvaUnosa(val bodovaPrviUnos: Int, val bodovaDrugiUnos: Int, val zvanjePrviUnos: Int = 0, val zvanjeDrugiUnos: Int = 0) : Mjesanje() {
 
     override var stiglja: Boolean = false
     override var belot = false

@@ -6,7 +6,7 @@ class MjesanjeTriUnosa(
     zvanjePrviUnos: Int,
     zvanjeDrugiUnos: Int,
     val bodovaTreciUnos: Int,
-    val zvanjeTreciUnos: Int
+    val zvanjeTreciUnos: Int = 0
 ) : MjesanjeDvaUnosa(
     bodovaPrviUnos, bodovaDrugiUnos, zvanjePrviUnos, zvanjeDrugiUnos
 ) {

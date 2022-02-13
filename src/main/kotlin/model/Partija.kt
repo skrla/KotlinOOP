@@ -2,7 +2,7 @@ package model
 
 import java.util.function.ToIntFunction
 
-abstract class Partija() : Entitet() {
+abstract class Partija : Entitet() {
 
     abstract val doKolikoSeIgra: Int
     abstract val lokacija: Lokacija
@@ -19,6 +19,7 @@ abstract class Partija() : Entitet() {
 
     fun isIgraGotova(): Boolean {
         val rezultat = getRezultat()
+        println("${rezultat.prvi}, ${rezultat.prvi}, ${rezultat.treci}")
         if (rezultat.isPocetak()) {
             return false
         }
