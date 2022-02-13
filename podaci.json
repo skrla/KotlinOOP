@@ -1,0 +1,188 @@
+[
+  {
+    "doKolikoSeIgra": 501,
+    "lokacija": {
+      "longitude": 18.6098766,
+      "latitude": 45.5605825,
+      "naziv": "Caffe Bar Peppermint",
+      "id": 1
+    },
+    "unosi": {
+      "ime": "Tomislav",
+      "prezime": "Jakopec",
+      "urlSlike": "https://picsum.photos/200",
+      "spol": 1,
+      "id": 1
+    },
+    "mjesanja": [
+      {
+        "stiglja": false,
+        "belot": false,
+        "datumUnosa": null,
+        "id": 0
+      },
+      {
+        "stiglja": true,
+        "belot": false,
+        "datumUnosa": null,
+        "id": 0
+      }
+    ],
+    "igraci": [
+      {
+        "ime": "Tomislav",
+        "prezime": "Jakopec",
+        "urlSlike": "https://picsum.photos/200",
+        "spol": 1,
+        "id": 1
+      },
+      {
+        "ime": "Marijan",
+        "prezime": "Zidar",
+        "urlSlike": "https://picsum.photos/200",
+        "spol": 1,
+        "id": 2
+      }
+    ],
+    "id": 0
+  },
+  {
+    "doKolikoSeIgra": 501,
+    "lokacija": {
+      "longitude": 18.6098766,
+      "latitude": 45.5605825,
+      "naziv": "Caffe Bar Peppermint",
+      "id": 1
+    },
+    "unosi": {
+      "ime": "Tomislav",
+      "prezime": "Jakopec",
+      "urlSlike": "https://picsum.photos/200",
+      "spol": 1,
+      "id": 1
+    },
+    "mjesanja": [
+      {
+        "stiglja": false,
+        "belot": false,
+        "datumUnosa": null,
+        "id": 0
+      },
+      {
+        "stiglja": false,
+        "belot": false,
+        "datumUnosa": null,
+        "id": 0
+      },
+      {
+        "stiglja": false,
+        "belot": false,
+        "datumUnosa": null,
+        "id": 0
+      },
+      {
+        "stiglja": false,
+        "belot": false,
+        "datumUnosa": null,
+        "id": 0
+      },
+      {
+        "stiglja": false,
+        "belot": false,
+        "datumUnosa": null,
+        "id": 0
+      },
+      {
+        "stiglja": false,
+        "belot": false,
+        "datumUnosa": null,
+        "id": 0
+      }
+    ],
+    "igraci": [
+      {
+        "ime": "Tomislav",
+        "prezime": "Jakopec",
+        "urlSlike": "https://picsum.photos/200",
+        "spol": 1,
+        "id": 1
+      },
+      {
+        "ime": "Marijan",
+        "prezime": "Zidar",
+        "urlSlike": "https://picsum.photos/200",
+        "spol": 1,
+        "id": 2
+      },
+      {
+        "ime": "Marija",
+        "prezime": "Zimska",
+        "urlSlike": "https://picsum.photos/200",
+        "spol": 0,
+        "id": 3
+      }
+    ],
+    "id": 0
+  },
+  {
+    "doKolikoSeIgra": 501,
+    "lokacija": {
+      "longitude": 18.6098766,
+      "latitude": 45.5605825,
+      "naziv": "Caffe Bar Peppermint",
+      "id": 1
+    },
+    "unosi": {
+      "ime": "Tomislav",
+      "prezime": "Jakopec",
+      "urlSlike": "https://picsum.photos/200",
+      "spol": 1,
+      "id": 1
+    },
+    "mjesanja": [
+      {
+        "stiglja": false,
+        "belot": false,
+        "datumUnosa": null,
+        "id": 0
+      },
+      {
+        "stiglja": true,
+        "belot": false,
+        "datumUnosa": null,
+        "id": 0
+      }
+    ],
+    "igraci": [
+      {
+        "ime": "Tomislav",
+        "prezime": "Jakopec",
+        "urlSlike": "https://picsum.photos/200",
+        "spol": 1,
+        "id": 1
+      },
+      {
+        "ime": "Marijan",
+        "prezime": "Zidar",
+        "urlSlike": "https://picsum.photos/200",
+        "spol": 1,
+        "id": 2
+      },
+      {
+        "ime": "Marija",
+        "prezime": "Zimska",
+        "urlSlike": "https://picsum.photos/200",
+        "spol": 0,
+        "id": 3
+      },
+      {
+        "ime": "Anita",
+        "prezime": "Račman",
+        "urlSlike": "https://picsum.photos/200",
+        "spol": 0,
+        "id": 4
+      }
+    ],
+    "id": 0
+  }
+]
