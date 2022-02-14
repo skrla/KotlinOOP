@@ -1,6 +1,5 @@
 package model
 
-import java.util.function.ToIntFunction
 
 abstract class Partija : Entitet() {
 
@@ -12,14 +11,13 @@ abstract class Partija : Entitet() {
 
     open fun getRezultat(): Rezultat {
         return Rezultat(
-            mjesanja.stream().mapToInt(ToIntFunction<Mjesanje> { it: Mjesanje -> it.getRezultat()!!.prvi }).sum(),
-            mjesanja.stream().mapToInt(ToIntFunction<Mjesanje> { it: Mjesanje -> it.getRezultat()!!.drugi }).sum()
+            mjesanja.stream().mapToInt { it.getRezultat()!!.prvi }.sum(),
+            mjesanja.stream().mapToInt { it.getRezultat()!!.drugi }.sum()
         )
     }
 
     fun isIgraGotova(): Boolean {
         val rezultat = getRezultat()
-        println("${rezultat.prvi}, ${rezultat.prvi}, ${rezultat.treci}")
         if (rezultat.isPocetak()) {
             return false
         }

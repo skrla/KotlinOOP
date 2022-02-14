@@ -10,11 +10,7 @@ class MjesanjeTriUnosa(
 ) : MjesanjeDvaUnosa(
     bodovaPrviUnos, bodovaDrugiUnos, zvanjePrviUnos, zvanjeDrugiUnos
 ) {
-    /*
-        var bodovaTreciUnos = 0
 
-        var zvanjeTreciUnos = 0
-    */
     override fun getRezultat(): Rezultat {
         val treciRezultat = super.getRezultat()
         treciRezultat!!.treci = bodovaTreciUnos + zvanjeTreciUnos

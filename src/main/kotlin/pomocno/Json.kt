@@ -21,12 +21,7 @@ object Json {
             val gson: Gson = gsonBilder.create()
             val jsonPodaci: String = gson.toJson(podaci)
             File("podaci.json").writeText(jsonPodaci)
-/*            val writer = FileWriter(File("podaci.json"))
 
-            println(gson.toJson(podaci, writer))
-            writer.flush()
-            writer.close()
- */
         } catch (e: IOException) {
             e.printStackTrace()
         }

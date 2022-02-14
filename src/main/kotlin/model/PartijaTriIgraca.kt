@@ -1,15 +1,14 @@
 package model
 
-import java.util.function.ToIntFunction
-
 class PartijaTriIgraca(
     doKolikoSeIgra: Int, lokacija: Lokacija,
     unosi: Igrac, mjesanja: List<Mjesanje>,
-     igraci: MutableList<Igrac?>
+    igraci: MutableList<Igrac?>
 ) : PartijaDvaIgraca(
     doKolikoSeIgra, lokacija,
     unosi, mjesanja,
-igraci) {
+    igraci
+) {
 
     override fun toString(): String {
         val rezultat = getRezultat()
@@ -21,7 +20,7 @@ igraci) {
 
     override fun getRezultat(): Rezultat {
         val rezultat = super.getRezultat()
-        rezultat.treci = mjesanja.stream().mapToInt(ToIntFunction<Mjesanje> { it: Mjesanje -> it.getRezultat()!!.prvi}).sum()
+        rezultat.treci = mjesanja.stream().mapToInt { it.getRezultat()!!.treci }.sum()
         return rezultat
     }
 }

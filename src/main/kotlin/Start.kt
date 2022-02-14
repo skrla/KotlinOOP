@@ -26,16 +26,16 @@ class Start {
         kreirajPartijuDvaIgraca()
         kreirajPartijuTriIgraca()
         kreirajPartijuDvaPara()
+        println(partije.joinToString())
     }
 
     private fun kreirajPartijuDvaPara() {
         val igraci: MutableList<Igrac?> = mutableListOf()
-        igraci += igrac1
-        igraci += igrac2
-        igraci += igrac3
-        igraci += igrac4
+        igraci.add(igrac1)
+        igraci.add(igrac2)
+        igraci.add(igrac3)
+        igraci.add(igrac4)
         val partija = PartijaDvaPara(501, lokacija!!, igrac1!!, kreirajMjesanjaDvaPara(), igraci)
-        println(partije.joinToString())
         partije.add(partija)
     }
 
@@ -90,10 +90,12 @@ class Start {
         return mjesanja
     }
 
-    private fun kreirajLokaciju() = Lokacija(id = 1,
+    private fun kreirajLokaciju() = Lokacija(
+        id = 1,
         naziv = "Caffe Bar Peppermint",
         latitude = 45.5605825,
-        longitude = 18.6098766)
+        longitude = 18.6098766
+    )
 
 
     private fun kreirajIgraca1() = Igrac(1, "Tomislav", "Jakopec", "https://picsum.photos/200", Spol.MUSKO.id)
