@@ -11,6 +11,10 @@ import java.io.FileReader
 import java.io.IOException
 import java.lang.reflect.Type
 
+/**
+ * @author Matija Skrletović
+ **/
+
 object Json {
     fun toJsonFile(filePath: String?, podaci: List<Partija>?) {
         try {

@@ -1,5 +1,9 @@
 package model
 
+/**
+ * @author Matija Skrletović
+ **/
+
 class MjesanjeTriUnosa(
     bodovaPrviUnos: Int,
     bodovaDrugiUnos: Int,

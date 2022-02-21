@@ -2,6 +2,10 @@ package model
 
 import java.util.*
 
+/**
+ * @author Matija Skrletović
+ **/
+
 abstract class Mjesanje : Entitet() {
 
     abstract var stiglja: Boolean

@@ -4,6 +4,10 @@ import com.google.gson.*
 import model.Mjesanje
 import java.lang.reflect.Type
 
+/**
+ * @author Matija Skrletović
+ **/
+
 class MjesanjeAdapter : JsonSerializer<Mjesanje?>, JsonDeserializer<Mjesanje> {
     override fun serialize(
         src: Mjesanje?,

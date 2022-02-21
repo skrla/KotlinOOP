@@ -1,5 +1,8 @@
 package model
 
+/**
+ * @author Matija Skrletović
+ **/
 
 abstract class Partija : Entitet() {
 

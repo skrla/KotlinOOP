@@ -4,6 +4,10 @@ import com.google.gson.*
 import model.Partija
 import java.lang.reflect.Type
 
+/**
+ * @author Matija Skrletović
+ **/
+
 class PartijaAdapter : JsonSerializer<Partija?>, JsonDeserializer<Partija?> {
     override fun serialize(
         src: Partija?,

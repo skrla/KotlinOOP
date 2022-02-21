@@ -1,6 +1,9 @@
 import model.*
 import pomocno.Json
 
+/**
+* @author Matija Skrletović
+**/
 class Start {
     private var partije: MutableList<Partija> = mutableListOf()
     private var igrac1: Igrac? = null

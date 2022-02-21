@@ -2,6 +2,9 @@ package t4polimorfizam
 
 import java.util.function.Consumer
 
+/**
+ * @author Matija Skrletović
+ **/
 
 class Start {
 

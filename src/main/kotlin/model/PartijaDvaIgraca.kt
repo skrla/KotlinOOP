@@ -1,5 +1,9 @@
 package model
 
+/**
+ * @author Matija Skrletović
+ **/
+
 open class PartijaDvaIgraca(
     override var doKolikoSeIgra: Int, override val lokacija: Lokacija,
     override val unosi: Igrac, override val mjesanja: List<Mjesanje>,

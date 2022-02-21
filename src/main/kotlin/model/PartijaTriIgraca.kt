@@ -1,5 +1,9 @@
 package model
 
+/**
+ * @author Matija Skrletović
+ **/
+
 class PartijaTriIgraca(
     doKolikoSeIgra: Int, lokacija: Lokacija,
     unosi: Igrac, mjesanja: List<Mjesanje>,

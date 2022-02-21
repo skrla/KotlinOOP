@@ -1,5 +1,9 @@
 package t2ucahurivanje
 
+/**
+ * @author Matija Skrletović
+ **/
+
 class Start {
 
     private var dokument: Dokument

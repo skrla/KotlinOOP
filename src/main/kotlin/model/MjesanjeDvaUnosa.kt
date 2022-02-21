@@ -2,6 +2,10 @@ package model
 
 import java.util.*
 
+/**
+ * @author Matija Skrletović
+ **/
+
 open class MjesanjeDvaUnosa(
     val bodovaPrviUnos: Int,
     val bodovaDrugiUnos: Int,

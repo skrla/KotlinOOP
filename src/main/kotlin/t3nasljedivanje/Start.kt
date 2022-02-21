@@ -1,5 +1,9 @@
 package t3nasljedivanje
 
+/**
+ * @author Matija Skrletović
+ **/
+
 class Start {
 
     init {
